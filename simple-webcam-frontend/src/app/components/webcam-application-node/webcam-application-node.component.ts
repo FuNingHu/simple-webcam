@@ -10,6 +10,7 @@ import { Observable, Subject } from 'rxjs';
     templateUrl: './webcam-application-node.component.html',
     styleUrls: ['./webcam-application-node.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false,
 })
 export class WebcamApplicationNodeComponent implements ApplicationPresenter, OnChanges {
     // applicationAPI is optional

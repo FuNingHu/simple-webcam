@@ -8,6 +8,7 @@ import { first } from 'rxjs/operators';
     templateUrl: './webcam-program-node.component.html',
     styleUrls: ['./webcam-program-node.component.scss'],
     changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false,
 })
 
 export class WebcamProgramNodeComponent implements OnChanges, ProgramPresenter {
